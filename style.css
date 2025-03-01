@@ -14,10 +14,6 @@
   object-fit: cover;
 }
 
-body {
-  overflow-x: hidden;
-}
-
 button {
   border: none;
   background-color: inherit;
@@ -254,6 +250,7 @@ a {
 .sliderTrack {
   display: flex;
   gap: 20px;
+  overflow: hidden;
 }
 .sliderFirstItem {
   display: flex;
