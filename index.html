@@ -16,6 +16,15 @@
           <button class="burgerMenu">
             <img src="./src/icons/burgerMenu.svg" alt="" />
           </button>
+          <div class="menuOverlay"></div>
+          <div class="menu">
+            <h2>Меню</h2>
+            <ul>
+              <li><a href="#">Главная</a></li>
+              <li><a href="#">О нас</a></li>
+              <li><a href="#">Контакты</a></li>
+            </ul>
+          </div>
           <a href="#" class="headerLogo">
             <img
               src="./src/icons/Logo_resident_text.svg"
@@ -29,21 +38,36 @@
             />
           </a>
           <ul class="navList">
-            <li class="navItem">
-              <button class="navBtn">
+            <li class="navItem menuContainer">
+              <button class="navBtn menuBtn">
                 Недвижимость <img src="./src/icons/btnArrowIcon.svg" alt="" />
               </button>
+              <ul class="menuList">
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Контакты</a></li>
+              </ul>
             </li>
-            <li class="navItem">
-              <button class="navBtn">
+            <li class="navItem menuContainer">
+              <button class="navBtn menuBtn">
                 Роскошный отдых
                 <img src="./src/icons/btnArrowIcon.svg" alt="" />
               </button>
+              <ul class="menuList">
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Контакты</a></li>
+              </ul>
             </li>
-            <li class="navItem">
-              <button class="navBtn">
+            <li class="navItem menuContainer">
+              <button class="navBtn menuBtn">
                 Дизайн <img src="./src/icons/btnArrowIcon.svg" alt="" />
               </button>
+              <ul class="menuList">
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Контакты</a></li>
+              </ul>
             </li>
             <li class="navItem">Продукты</li>
             <li class="navItem">Интервью</li>
@@ -602,5 +626,6 @@
         <p class="footerLicense">Все права защищены</p>
       </footer>
     </div>
+    <script src="./script.js"></script>
   </body>
 </html>
